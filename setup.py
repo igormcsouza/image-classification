@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='image_classification',
+    name='imageclassification',
     version='1.0',
-    package_dir={'': 'image_classification'},
+    package_dir={'': 'imageclassification'},
     install_requires=[
         'numpy==1.18.0',
         'opencv-python==4.1.2.30',
