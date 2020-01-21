@@ -7,6 +7,7 @@ setup(
     install_requires=[
         'numpy==1.18.0',
         'opencv-python==4.1.2.30',
+        'imutils==0.5.3',
         'Keras==2.3.1'
     ],
     url='https://github.com/igormcsouza/image-classification',
