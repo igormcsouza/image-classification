@@ -1,9 +1,12 @@
 from setuptools import setup
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name='imageclassification',
     version='1.0',
-    package_dir={'': 'imageclassification'},
+    packages=setuptools.find_packages(),    
     install_requires=[
         'numpy==1.18.0',
         'opencv-python==4.1.2.30',
@@ -14,4 +17,6 @@ setup(
     author='Igor Souza',
     author_email='igormcsouza@gmail.com',
     description='Image Classifiers and Preprocessors'
+    long_description=long_description,
+    long_description_content_type="text/markdown",
 )

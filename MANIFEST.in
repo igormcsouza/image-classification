@@ -1,0 +1,2 @@
+setup.py
+recursively include imageclassification/ *.py
