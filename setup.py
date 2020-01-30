@@ -16,7 +16,7 @@ setup(
     url='https://github.com/igormcsouza/image-classification',
     author='Igor Souza',
     author_email='igormcsouza@gmail.com',
-    description='Image Classifiers and Preprocessors'
+    description='Image Classifiers and Preprocessors',
     long_description=long_description,
     long_description_content_type="text/markdown",
 )
