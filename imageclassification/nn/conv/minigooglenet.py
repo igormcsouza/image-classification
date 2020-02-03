@@ -31,6 +31,9 @@ class MiniGoogLeNet:
         conv_3x3 = MiniGoogLeNet.conv_module(x, numK3x3, 3, 3, (1, 1), chanDim)
         x = concatenate([conv_1x1, conv_3x3], axis=chanDim)
 
+        # return the block
+        return x
+
     @staticmethod
     def downsample_module(x, K, chanDim):
         # define the CONV module and POOL, then concatenate
