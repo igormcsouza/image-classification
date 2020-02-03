@@ -34,7 +34,7 @@ class MiniGoogLeNet:
     @staticmethod
     def downsample_module(x, K, chanDim):
         # define the CONV module and POOL, then concatenate
-        # across the channel dimensions
+        # across the channel dimensions``
         conv_3x3 = MiniGoogLeNet.conv_module(x, K, 3, 3, (2, 2), chanDim, padding="valid")
         pool = MaxPooling2D((3, 3), strides=(2, 2))(x)
         x = concatenate([conv_3x3, pool], axis=chanDim)
