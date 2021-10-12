@@ -9,7 +9,7 @@ setup(
     packages=setuptools.find_packages(),    
     install_requires=[
         # 'numpy==1.18.0',
-        'opencv-python==4.1.2.30',
+        'opencv-python==4.2.0.32',
         'imutils==0.5.3'
         # 'Keras==2.3.1'
     ],
